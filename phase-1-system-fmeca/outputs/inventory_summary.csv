@@ -1,0 +1,4 @@
+farm,n_turbine_datasets,n_logged_events,n_anomaly_events,n_normal_events,has_feature_description,counts_reconcile
+A,22,22,11,11,True,True
+B,15,15,6,9,True,True
+C,58,58,27,31,True,True

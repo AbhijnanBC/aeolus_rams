@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+matplotlib
+plotly
+jupyterlab
+lifelines
+reliability
+pymc
+simpy
+networkx
+graphviz

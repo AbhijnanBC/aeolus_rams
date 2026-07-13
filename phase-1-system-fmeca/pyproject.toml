@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aeolus-rams-phase1"
+version = "1.0.0"
+description = "AEOLUS-RAMS Phase 1 — System Definition + FMECA over the CARE-to-Compare wind turbine SCADA benchmark"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "tabulate>=0.9"]
+
+[project.scripts]
+aeolus-rams-phase1 = "aeolus_rams.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["aeolus_rams*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
