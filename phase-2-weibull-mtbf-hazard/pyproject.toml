@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aeolus-rams-phase2"
+version = "1.0.0"
+description = "AEOLUS-RAMS Phase 2 — Weibull/exponential fitting, MTBF, and hazard rate, tiered by data sufficiency, built on Phase 1's FMECA output"
+requires-python = ">=3.10"
+dependencies = [
+    "aeolus-rams-phase1>=1.0.0",
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "tabulate>=0.9"]
+
+[project.scripts]
+aeolus-rams-phase2 = "aeolus_rams_phase2.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["aeolus_rams_phase2*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

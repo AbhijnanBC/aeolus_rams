@@ -1,0 +1,4 @@
+farm,asset_id,n_dated_events,offset_days_min,offset_days_max,offset_days_constant,interpretation,event_id,event_start,implied_date,matched_text,offset_days
+C,2,1,1462,1462,True,only one dated event on this asset — inconclusive,44,2016-08-03 14:00:00,2020-08-05,05-08-2020,1462
+C,34,1,1099,1099,True,only one dated event on this asset — inconclusive,49,2020-04-01 00:00:00,2023-04-05,2023-04-05,1099
+C,38,1,1483,1483,True,only one dated event on this asset — inconclusive,47,2018-12-23 15:00:00,2023-01-15,15.01.2023,1483

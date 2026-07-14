@@ -12,6 +12,7 @@ no FMECA logic lives in this module.
 
 from __future__ import annotations
 
+import csv
 import logging
 import re
 from dataclasses import dataclass
@@ -22,6 +23,13 @@ import pandas as pd
 from . import config
 
 logger = logging.getLogger("aeolus_rams.data_loader")
+
+# Disable PyArrow string inference to avoid hanging on wide CSVs
+pd.options.mode.string_storage = "python"
+try:
+    pd.options.io.parquet.engine = "pyarrow"
+except AttributeError:
+    pass  # Older pandas versions don't have this option
 
 
 class CAREDataError(RuntimeError):
@@ -171,7 +179,7 @@ def load_dataset_file(
     columns: list[str] | None = None,
     nrows: int | None = None,
 ) -> pd.DataFrame:
-    """Load a single per-turbine SCADA dataset CSV.
+    """Load a single per-turbine SCADA dataset CSV using pure Python.
 
     Parameters
     ----------
@@ -180,14 +188,70 @@ def load_dataset_file(
     nrows : cap the number of rows read (useful for fast structural checks
         on files that can run to 60k+ rows).
     """
-    df = pd.read_csv(
-        path,
-        sep=config.CARE_CSV_SEPARATOR,
-        usecols=columns,
-        nrows=nrows,
-    )
+    # Read complete CSV using pure Python - robust and handles all platforms.
+    # On PowerShell/Linux this should work without signal interrupts.
+    rows = []
+    header = None
+    selected_indices = None
+    
+    try:
+        with open(path, 'r', encoding='utf-8', errors='replace') as f:
+            reader = csv.reader(f, delimiter=config.CARE_CSV_SEPARATOR)
+            
+            for i, row in enumerate(reader):
+                if i == 0:  # Header row
+                    header = row
+                    if columns:
+                        # Find indices of requested columns
+                        try:
+                            selected_indices = [header.index(c) for c in columns if c in header]
+                        except ValueError as e:
+                            logger.warning("Column not found in %s: %s", path.name, e)
+                            selected_indices = None
+                    continue
+                
+                if nrows and len(rows) >= nrows:
+                    break  # Stop if we've read enough rows
+                
+                # Extract selected columns if specified, else keep all
+                if selected_indices is not None:
+                    row_data = [row[idx] if idx < len(row) else "" for idx in selected_indices]
+                else:
+                    row_data = row
+                
+                rows.append(row_data)
+        
+        # Build dataframe
+        if selected_indices is not None and header is not None:
+            col_names = [header[idx] for idx in selected_indices]
+        else:
+            col_names = header if header else []
+        
+        if not rows:
+            logger.warning("Empty file: %s", path)
+            return pd.DataFrame(columns=col_names)
+        
+        df = pd.DataFrame(rows, columns=col_names)
+        
+    except Exception as e:
+        logger.error("Failed to load %s: %s", path, e)
+        raise
+    
+    # Convert specific columns to proper types for downstream processing
     if "time_stamp" in df.columns:
-        df["time_stamp"] = pd.to_datetime(df["time_stamp"])
+        try:
+            df["time_stamp"] = pd.to_datetime(df["time_stamp"], errors="coerce")
+        except Exception as e:
+            logger.warning("Failed to parse time_stamp in %s: %s", path, e)
+    
+    # Convert numeric columns to native types for scientific calculations
+    for col in df.columns:
+        if col != "time_stamp":
+            try:
+                df[col] = pd.to_numeric(df[col], errors="coerce")
+            except Exception:
+                pass  # Keep as-is if conversion fails
+    
     return df
 
 

@@ -1,0 +1,512 @@
+farm,asset_id,component,tbf_days,censored,interval_start,interval_end,interval_type
+C,12,Pitch System,3997.0,False,2018-02-05 00:00:00,2029-01-15 00:00:00,time_to_first_failure
+C,12,Pitch System,12.541666666666666,True,2029-01-15 00:00:00,2029-01-27 13:00:00,censored_at_observation_end
+C,16,Pitch System,3332.5208333333335,False,2018-10-29 11:30:00,2027-12-14 00:00:00,inter_failure
+C,16,Pitch System,8.0,False,2027-12-14 00:00:00,2027-12-22 00:00:00,inter_failure
+C,16,Pitch System,16.65277777777778,True,2027-12-22 00:00:00,2028-01-07 15:40:00,censored_at_observation_end
+C,35,Pitch System,1913.638888888889,False,2014-10-13 08:40:00,2020-01-09 00:00:00,time_to_first_failure
+C,35,Pitch System,2565.0,False,2020-01-09 00:00:00,2027-01-17 00:00:00,inter_failure
+C,35,Pitch System,76.0,True,2027-01-17 00:00:00,2027-04-03 00:00:00,censored_at_observation_end
+C,38,Pitch System,82.9375,False,2018-11-16 01:30:00,2019-02-07 00:00:00,time_to_first_failure
+C,38,Pitch System,2504.9513888888887,True,2019-02-07 00:00:00,2025-12-16 22:50:00,censored_at_observation_end
+C,43,Pitch System,2350.3958333333335,False,2016-05-05 00:00:00,2022-10-11 09:30:00,time_to_first_failure
+C,43,Pitch System,29.1875,False,2022-10-11 09:30:00,2022-11-09 14:00:00,inter_failure
+C,43,Pitch System,674.9583333333334,True,2022-11-09 14:00:00,2024-09-14 13:00:00,censored_at_observation_end
+C,52,Pitch System,1043.0,False,2021-10-16 13:00:00,2024-08-24 13:00:00,time_to_first_failure
+C,52,Pitch System,5.590277777777778,True,2024-08-24 13:00:00,2024-08-30 03:10:00,censored_at_observation_end
+C,53,Pitch System,2760.4166666666665,False,2019-01-07 00:00:00,2026-07-29 10:00:00,time_to_first_failure
+C,53,Pitch System,526.5763888888889,True,2026-07-29 10:00:00,2028-01-06 23:50:00,censored_at_observation_end
+A,0,Pitch System,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Pitch System,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Pitch System,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Pitch System,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Pitch System,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Pitch System,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Pitch System,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Pitch System,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Pitch System,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Pitch System,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Pitch System,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Pitch System,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Pitch System,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Pitch System,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Pitch System,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Pitch System,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,13,Pitch System,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Pitch System,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Pitch System,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,21,Pitch System,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Pitch System,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Pitch System,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Pitch System,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Pitch System,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,42,Pitch System,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,44,Pitch System,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Pitch System,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,55,Pitch System,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Pitch System,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+B,0,Main/Rotor Bearing,94.85416666666667,False,2019-09-23 20:10:00,2019-12-27 16:40:00,time_to_first_failure
+B,0,Main/Rotor Bearing,279.1458333333333,True,2019-12-27 16:40:00,2020-10-01 20:10:00,censored_at_observation_end
+B,6,Main/Rotor Bearing,156.30555555555554,False,2018-12-27 16:40:00,2019-06-02 00:00:00,time_to_first_failure
+B,6,Main/Rotor Bearing,2677.4930555555557,True,2019-06-02 00:00:00,2026-09-30 11:50:00,censored_at_observation_end
+B,14,Main/Rotor Bearing,8.0,False,2018-08-25 00:00:00,2018-09-02 00:00:00,time_to_first_failure
+B,14,Main/Rotor Bearing,3254.0,True,2018-09-02 00:00:00,2027-07-31 00:00:00,censored_at_observation_end
+A,0,Main/Rotor Bearing,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Main/Rotor Bearing,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Main/Rotor Bearing,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Main/Rotor Bearing,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Main/Rotor Bearing,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,2,Main/Rotor Bearing,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Main/Rotor Bearing,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,7,Main/Rotor Bearing,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Main/Rotor Bearing,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Main/Rotor Bearing,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Main/Rotor Bearing,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+C,2,Main/Rotor Bearing,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Main/Rotor Bearing,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Main/Rotor Bearing,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Main/Rotor Bearing,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Main/Rotor Bearing,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Main/Rotor Bearing,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Main/Rotor Bearing,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Main/Rotor Bearing,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Main/Rotor Bearing,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Main/Rotor Bearing,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Main/Rotor Bearing,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Main/Rotor Bearing,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Main/Rotor Bearing,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Main/Rotor Bearing,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Main/Rotor Bearing,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Main/Rotor Bearing,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Main/Rotor Bearing,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Main/Rotor Bearing,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Main/Rotor Bearing,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Main/Rotor Bearing,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Main/Rotor Bearing,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Main/Rotor Bearing,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+A,10,Gearbox,367.0,False,2013-10-10 08:40:00,2014-10-12 08:40:00,time_to_first_failure
+A,10,Gearbox,3264.2986111111113,True,2014-10-12 08:40:00,2023-09-19 15:50:00,censored_at_observation_end
+A,21,Gearbox,2561.2986111111113,False,2014-10-05 01:30:00,2021-10-09 08:40:00,time_to_first_failure
+A,21,Gearbox,592.0694444444445,True,2021-10-09 08:40:00,2023-05-24 10:20:00,censored_at_observation_end
+C,34,Gearbox,294.55555555555554,False,2019-06-11 10:40:00,2020-04-01 00:00:00,time_to_first_failure
+C,34,Gearbox,2334.4166666666665,True,2020-04-01 00:00:00,2026-08-22 10:00:00,censored_at_observation_end
+A,0,Gearbox,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,11,Gearbox,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Gearbox,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+B,0,Gearbox,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Gearbox,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Gearbox,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Gearbox,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Gearbox,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Gearbox,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Gearbox,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Gearbox,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Gearbox,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Gearbox,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Gearbox,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Gearbox,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Gearbox,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Gearbox,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Gearbox,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Gearbox,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Gearbox,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Gearbox,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Gearbox,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Gearbox,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,35,Gearbox,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Gearbox,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Gearbox,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Gearbox,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Gearbox,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Gearbox,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Gearbox,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Gearbox,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Gearbox,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Gearbox,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+A,10,Generator,3220.8958333333335,False,2013-10-10 08:40:00,2022-08-05 06:10:00,time_to_first_failure
+A,10,Generator,140.74305555555554,False,2022-08-05 06:10:00,2022-12-24 00:00:00,inter_failure
+A,10,Generator,269.65972222222223,True,2022-12-24 00:00:00,2023-09-19 15:50:00,censored_at_observation_end
+A,0,Generator,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,11,Generator,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Generator,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Generator,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Generator,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Generator,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Generator,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Generator,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Generator,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Generator,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Generator,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Generator,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Generator,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Generator,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Generator,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Generator,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Generator,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Generator,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Generator,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Generator,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Generator,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Generator,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Generator,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Generator,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Generator,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Generator,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Generator,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Generator,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Generator,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Generator,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Generator,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Generator,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Generator,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Generator,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Generator,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+C,38,Mechanical Brake,37.5625,False,2018-11-16 01:30:00,2018-12-23 15:00:00,time_to_first_failure
+C,38,Mechanical Brake,2375.375,False,2018-12-23 15:00:00,2025-06-25 00:00:00,inter_failure
+C,38,Mechanical Brake,79.0,False,2025-06-25 00:00:00,2025-09-12 00:00:00,inter_failure
+C,38,Mechanical Brake,95.95138888888889,True,2025-09-12 00:00:00,2025-12-16 22:50:00,censored_at_observation_end
+A,0,Mechanical Brake,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Mechanical Brake,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Mechanical Brake,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Mechanical Brake,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Mechanical Brake,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Mechanical Brake,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Mechanical Brake,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Mechanical Brake,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Mechanical Brake,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Mechanical Brake,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Mechanical Brake,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Mechanical Brake,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Mechanical Brake,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Mechanical Brake,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Mechanical Brake,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Mechanical Brake,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Mechanical Brake,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Mechanical Brake,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Mechanical Brake,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Mechanical Brake,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Mechanical Brake,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Mechanical Brake,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Mechanical Brake,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Mechanical Brake,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Mechanical Brake,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Mechanical Brake,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Mechanical Brake,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,42,Mechanical Brake,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Mechanical Brake,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Mechanical Brake,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Mechanical Brake,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Mechanical Brake,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Mechanical Brake,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Mechanical Brake,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Mechanical Brake,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+A,0,Hydraulic System,1015.4305555555555,False,2017-12-31 00:00:00,2020-10-11 10:20:00,time_to_first_failure
+A,0,Hydraulic System,693.2152777777778,False,2020-10-11 10:20:00,2022-09-04 15:30:00,inter_failure
+A,0,Hydraulic System,286.84027777777777,True,2022-09-04 15:30:00,2023-06-18 11:40:00,censored_at_observation_end
+A,10,Hydraulic System,2382.3958333333335,False,2013-10-10 08:40:00,2020-04-18 18:10:00,time_to_first_failure
+A,10,Hydraulic System,1237.9027777777778,False,2020-04-18 18:10:00,2023-09-08 15:50:00,inter_failure
+A,10,Hydraulic System,11.0,True,2023-09-08 15:50:00,2023-09-19 15:50:00,censored_at_observation_end
+A,11,Hydraulic System,3236.9305555555557,False,2014-07-29 13:20:00,2023-06-09 11:40:00,time_to_first_failure
+A,11,Hydraulic System,102.54861111111111,True,2023-06-09 11:40:00,2023-09-20 00:50:00,censored_at_observation_end
+A,21,Hydraulic System,2502.347222222222,False,2014-10-05 01:30:00,2021-08-11 09:50:00,time_to_first_failure
+A,21,Hydraulic System,651.0208333333334,True,2021-08-11 09:50:00,2023-05-24 10:20:00,censored_at_observation_end
+A,13,Hydraulic System,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+B,0,Hydraulic System,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Hydraulic System,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Hydraulic System,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Hydraulic System,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Hydraulic System,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Hydraulic System,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Hydraulic System,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Hydraulic System,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Hydraulic System,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Hydraulic System,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Hydraulic System,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Hydraulic System,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Hydraulic System,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Hydraulic System,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Hydraulic System,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Hydraulic System,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Hydraulic System,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Hydraulic System,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Hydraulic System,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Hydraulic System,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Hydraulic System,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Hydraulic System,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Hydraulic System,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Hydraulic System,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Hydraulic System,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Hydraulic System,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Hydraulic System,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Hydraulic System,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Hydraulic System,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Hydraulic System,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Hydraulic System,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+C,16,Converter,2150.8194444444443,False,2018-11-03 04:20:00,2024-09-23 00:00:00,time_to_first_failure
+C,16,Converter,1201.6527777777778,True,2024-09-23 00:00:00,2028-01-07 15:40:00,censored_at_observation_end
+C,38,Converter,366.0,False,2018-11-16 01:30:00,2019-11-17 01:30:00,time_to_first_failure
+C,38,Converter,2221.8888888888887,True,2019-11-17 01:30:00,2025-12-16 22:50:00,censored_at_observation_end
+A,0,Converter,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Converter,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Converter,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Converter,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Converter,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Converter,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Converter,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Converter,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Converter,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Converter,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Converter,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Converter,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Converter,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Converter,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Converter,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Converter,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Converter,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Converter,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Converter,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Converter,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,21,Converter,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Converter,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Converter,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Converter,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Converter,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Converter,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,42,Converter,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Converter,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Converter,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Converter,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Converter,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Converter,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Converter,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Converter,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+A,10,Transformer,657.1944444444445,False,2013-10-10 08:40:00,2015-07-29 13:20:00,time_to_first_failure
+A,10,Transformer,2974.1041666666665,True,2015-07-29 13:20:00,2023-09-19 15:50:00,censored_at_observation_end
+C,12,Transformer,3283.0,False,2018-02-05 00:00:00,2027-02-01 00:00:00,time_to_first_failure
+C,12,Transformer,726.5416666666666,True,2027-02-01 00:00:00,2029-01-27 13:00:00,censored_at_observation_end
+A,0,Transformer,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,11,Transformer,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Transformer,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Transformer,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Transformer,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Transformer,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Transformer,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Transformer,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Transformer,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Transformer,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Transformer,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Transformer,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Transformer,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Transformer,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Transformer,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,13,Transformer,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Transformer,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Transformer,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Transformer,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Transformer,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Transformer,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Transformer,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Transformer,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Transformer,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Transformer,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Transformer,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Transformer,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Transformer,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Transformer,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Transformer,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Transformer,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Transformer,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Transformer,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Transformer,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+C,55,Yaw System,368.0,False,2016-08-02 07:30:00,2017-08-05 07:30:00,time_to_first_failure
+C,55,Yaw System,4296.923611111111,True,2017-08-05 07:30:00,2029-05-11 05:40:00,censored_at_observation_end
+A,0,Yaw System,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Yaw System,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Yaw System,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Yaw System,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Yaw System,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Yaw System,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Yaw System,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Yaw System,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Yaw System,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Yaw System,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Yaw System,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Yaw System,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Yaw System,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Yaw System,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Yaw System,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Yaw System,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Yaw System,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Yaw System,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Yaw System,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Yaw System,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Yaw System,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Yaw System,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Yaw System,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Yaw System,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Yaw System,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Yaw System,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Yaw System,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Yaw System,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Yaw System,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Yaw System,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Yaw System,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Yaw System,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Yaw System,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Yaw System,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,56,Yaw System,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+C,16,SCADA/Communication,2455.1944444444443,False,2018-11-03 04:20:00,2025-07-24 09:00:00,time_to_first_failure
+C,16,SCADA/Communication,897.2777777777778,True,2025-07-24 09:00:00,2028-01-07 15:40:00,censored_at_observation_end
+C,53,SCADA/Communication,2770.625,False,2019-01-07 00:00:00,2026-08-08 15:00:00,time_to_first_failure
+C,53,SCADA/Communication,516.3680555555555,True,2026-08-08 15:00:00,2028-01-06 23:50:00,censored_at_observation_end
+A,0,SCADA/Communication,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,SCADA/Communication,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,SCADA/Communication,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,SCADA/Communication,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,SCADA/Communication,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,SCADA/Communication,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,SCADA/Communication,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,SCADA/Communication,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,SCADA/Communication,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,SCADA/Communication,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,SCADA/Communication,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,SCADA/Communication,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,SCADA/Communication,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,SCADA/Communication,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,SCADA/Communication,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,SCADA/Communication,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,SCADA/Communication,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,SCADA/Communication,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,SCADA/Communication,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,SCADA/Communication,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,21,SCADA/Communication,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,SCADA/Communication,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,SCADA/Communication,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,SCADA/Communication,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,SCADA/Communication,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,SCADA/Communication,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,SCADA/Communication,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,SCADA/Communication,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,SCADA/Communication,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,SCADA/Communication,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,SCADA/Communication,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,SCADA/Communication,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,55,SCADA/Communication,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,SCADA/Communication,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+C,32,Electrical Safety System,366.0,False,2019-02-02 00:00:00,2020-02-03 00:00:00,time_to_first_failure
+C,32,Electrical Safety System,33.0,True,2020-02-03 00:00:00,2020-03-07 00:00:00,censored_at_observation_end
+C,43,Electrical Safety System,2357.5416666666665,False,2016-05-05 00:00:00,2022-10-18 13:00:00,time_to_first_failure
+C,43,Electrical Safety System,697.0,True,2022-10-18 13:00:00,2024-09-14 13:00:00,censored_at_observation_end
+C,52,Electrical Safety System,364.9791666666667,False,2021-10-16 13:00:00,2022-10-16 12:30:00,time_to_first_failure
+C,52,Electrical Safety System,683.6111111111111,True,2022-10-16 12:30:00,2024-08-30 03:10:00,censored_at_observation_end
+A,0,Electrical Safety System,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Electrical Safety System,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Electrical Safety System,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Electrical Safety System,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Electrical Safety System,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Electrical Safety System,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Electrical Safety System,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Electrical Safety System,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Electrical Safety System,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Electrical Safety System,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Electrical Safety System,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Electrical Safety System,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Electrical Safety System,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Electrical Safety System,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Electrical Safety System,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Electrical Safety System,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Electrical Safety System,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Electrical Safety System,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Electrical Safety System,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Electrical Safety System,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Electrical Safety System,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Electrical Safety System,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Electrical Safety System,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,33,Electrical Safety System,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Electrical Safety System,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Electrical Safety System,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Electrical Safety System,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Electrical Safety System,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,44,Electrical Safety System,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Electrical Safety System,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,53,Electrical Safety System,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Electrical Safety System,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Electrical Safety System,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+C,23,Grounding/Lightning Protection,1756.451388888889,False,2017-10-07 02:10:00,2022-07-29 13:00:00,time_to_first_failure
+C,23,Grounding/Lightning Protection,2419.2083333333335,True,2022-07-29 13:00:00,2029-03-13 18:00:00,censored_at_observation_end
+C,52,Grounding/Lightning Protection,588.0,False,2021-10-16 13:00:00,2023-05-27 13:00:00,time_to_first_failure
+C,52,Grounding/Lightning Protection,460.59027777777777,True,2023-05-27 13:00:00,2024-08-30 03:10:00,censored_at_observation_end
+A,0,Grounding/Lightning Protection,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Grounding/Lightning Protection,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Grounding/Lightning Protection,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Grounding/Lightning Protection,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Grounding/Lightning Protection,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Grounding/Lightning Protection,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Grounding/Lightning Protection,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Grounding/Lightning Protection,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,6,Grounding/Lightning Protection,2833.7986111111113,True,2018-12-27 16:40:00,2026-09-30 11:50:00,zero_failures_censored
+B,7,Grounding/Lightning Protection,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,11,Grounding/Lightning Protection,1450.2916666666667,True,2024-02-02 00:00:00,2028-01-22 07:00:00,zero_failures_censored
+B,12,Grounding/Lightning Protection,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Grounding/Lightning Protection,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+B,14,Grounding/Lightning Protection,3262.0,True,2018-08-25 00:00:00,2027-07-31 00:00:00,zero_failures_censored
+C,2,Grounding/Lightning Protection,3624.7986111111113,True,2015-08-16 19:50:00,2025-07-19 15:00:00,zero_failures_censored
+C,5,Grounding/Lightning Protection,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Grounding/Lightning Protection,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Grounding/Lightning Protection,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Grounding/Lightning Protection,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Grounding/Lightning Protection,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Grounding/Lightning Protection,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Grounding/Lightning Protection,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,32,Grounding/Lightning Protection,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Grounding/Lightning Protection,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Grounding/Lightning Protection,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Grounding/Lightning Protection,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Grounding/Lightning Protection,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Grounding/Lightning Protection,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Grounding/Lightning Protection,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Grounding/Lightning Protection,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Grounding/Lightning Protection,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,53,Grounding/Lightning Protection,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Grounding/Lightning Protection,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Grounding/Lightning Protection,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
+B,6,Cooling System,2741.3055555555557,False,2018-12-27 16:40:00,2026-06-30 00:00:00,time_to_first_failure
+B,6,Cooling System,92.49305555555556,True,2026-06-30 00:00:00,2026-09-30 11:50:00,censored_at_observation_end
+B,11,Cooling System,366.0,False,2024-02-02 00:00:00,2025-02-02 00:00:00,time_to_first_failure
+B,11,Cooling System,1084.2916666666667,True,2025-02-02 00:00:00,2028-01-22 07:00:00,censored_at_observation_end
+B,14,Cooling System,365.0,False,2018-08-25 00:00:00,2019-08-25 00:00:00,time_to_first_failure
+B,14,Cooling System,2897.0,True,2019-08-25 00:00:00,2027-07-31 00:00:00,censored_at_observation_end
+C,2,Cooling System,352.75694444444446,False,2015-08-16 19:50:00,2016-08-03 14:00:00,time_to_first_failure
+C,2,Cooling System,3272.0416666666665,True,2016-08-03 14:00:00,2025-07-19 15:00:00,censored_at_observation_end
+A,0,Cooling System,1995.486111111111,True,2017-12-31 00:00:00,2023-06-18 11:40:00,zero_failures_censored
+A,10,Cooling System,3631.2986111111113,True,2013-10-10 08:40:00,2023-09-19 15:50:00,zero_failures_censored
+A,11,Cooling System,3339.4791666666665,True,2014-07-29 13:20:00,2023-09-20 00:50:00,zero_failures_censored
+A,13,Cooling System,1244.888888888889,True,2019-04-16 18:10:00,2022-09-12 15:30:00,zero_failures_censored
+A,21,Cooling System,3153.3680555555557,True,2014-10-05 01:30:00,2023-05-24 10:20:00,zero_failures_censored
+B,0,Cooling System,374.0,True,2019-09-23 20:10:00,2020-10-01 20:10:00,zero_failures_censored
+B,2,Cooling System,463.0,True,2025-06-28 00:00:00,2026-10-04 00:00:00,zero_failures_censored
+B,5,Cooling System,382.0,True,2027-09-22 23:00:00,2028-10-08 23:00:00,zero_failures_censored
+B,7,Cooling System,4050.9583333333335,True,2017-08-31 00:00:00,2028-10-02 23:00:00,zero_failures_censored
+B,12,Cooling System,2909.0486111111113,True,2018-05-30 00:00:00,2026-05-17 01:10:00,zero_failures_censored
+B,13,Cooling System,420.18055555555554,True,2025-06-29 00:00:00,2026-08-23 04:20:00,zero_failures_censored
+C,5,Cooling System,384.0,True,2024-03-05 01:10:00,2025-03-24 01:10:00,zero_failures_censored
+C,12,Cooling System,4009.5416666666665,True,2018-02-05 00:00:00,2029-01-27 13:00:00,zero_failures_censored
+C,13,Cooling System,381.0,True,2027-03-07 02:00:00,2028-03-22 02:00:00,zero_failures_censored
+C,14,Cooling System,376.0,True,2028-01-11 13:10:00,2029-01-21 13:10:00,zero_failures_censored
+C,15,Cooling System,2258.4791666666665,True,2021-07-29 13:00:00,2027-10-05 00:30:00,zero_failures_censored
+C,16,Cooling System,3352.472222222222,True,2018-11-03 04:20:00,2028-01-07 15:40:00,zero_failures_censored
+C,21,Cooling System,3975.9930555555557,True,2017-12-23 15:00:00,2028-11-11 14:50:00,zero_failures_censored
+C,23,Cooling System,4175.659722222223,True,2017-10-07 02:10:00,2029-03-13 18:00:00,zero_failures_censored
+C,32,Cooling System,399.0,True,2019-02-02 00:00:00,2020-03-07 00:00:00,zero_failures_censored
+C,33,Cooling System,3241.7708333333335,True,2019-03-30 00:00:00,2028-02-12 18:30:00,zero_failures_censored
+C,34,Cooling System,2628.972222222222,True,2019-06-11 10:40:00,2026-08-22 10:00:00,zero_failures_censored
+C,35,Cooling System,4554.638888888889,True,2014-10-13 08:40:00,2027-04-03 00:00:00,zero_failures_censored
+C,38,Cooling System,2587.8888888888887,True,2018-11-16 01:30:00,2025-12-16 22:50:00,zero_failures_censored
+C,42,Cooling System,1464.826388888889,True,2021-10-10 09:30:00,2025-10-14 05:20:00,zero_failures_censored
+C,43,Cooling System,3054.5416666666665,True,2016-05-05 00:00:00,2024-09-14 13:00:00,zero_failures_censored
+C,44,Cooling System,2486.8819444444443,True,2015-08-03 14:00:00,2022-05-25 11:10:00,zero_failures_censored
+C,50,Cooling System,2505.7916666666665,True,2017-10-27 11:30:00,2024-09-06 06:30:00,zero_failures_censored
+C,52,Cooling System,1048.5902777777778,True,2021-10-16 13:00:00,2024-08-30 03:10:00,zero_failures_censored
+C,53,Cooling System,3286.9930555555557,True,2019-01-07 00:00:00,2028-01-06 23:50:00,zero_failures_censored
+C,55,Cooling System,4664.923611111111,True,2016-08-02 07:30:00,2029-05-11 05:40:00,zero_failures_censored
+C,56,Cooling System,4064.7638888888887,True,2015-07-06 23:10:00,2026-08-22 17:30:00,zero_failures_censored
