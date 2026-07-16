@@ -1,0 +1,14 @@
+component,tier,confidence,mtbf_days,is_placeholder,R_365d,R_1095d,R_1825d,R_3650d,R_7305d
+Pitch System,A,fitted_tier_a,1936.3776678104537,False,0.828097,0.567862,0.389609,0.151795,0.022994
+Hydraulic System,B,fitted_tier_b,1844.703703703704,False,0.82037,0.552116,0.37178,0.13822,0.019063
+Gearbox,C,posterior_informed,28033.147886957817,False,0.987055,0.961666,0.936964,0.877902,0.770601
+Main/Rotor Bearing,C,posterior_informed,29293.568135823352,False,0.987609,0.963285,0.939593,0.882834,0.77929
+SCADA/Communication,C,posterior_informed,37150.250660361286,False,0.990216,0.970936,0.952056,0.90641,0.821491
+Converter,C,posterior_informed,37289.56293551928,False,0.990253,0.971043,0.952231,0.906743,0.822095
+Generator,C,posterior_informed,42203.017130032,False,0.991383,0.97437,0.957673,0.917137,0.84106
+Mechanical Brake,C,assumed_placeholder,4400.0,True,0.920341,0.779553,0.660453,0.436198,0.190096
+Transformer,C,assumed_placeholder,6000.0,True,0.940941,0.833081,0.737707,0.544212,0.295969
+Yaw System,C,assumed_placeholder,4300.0,True,0.918566,0.775052,0.654112,0.427862,0.182896
+Electrical Safety System,C,assumed_placeholder,5200.0,True,0.93217,0.81,0.703977,0.495584,0.245414
+Grounding/Lightning Protection,C,assumed_placeholder,14600.0,True,0.975293,0.927696,0.882482,0.778774,0.606323
+Cooling System,C,assumed_placeholder,11000.0,True,0.967341,0.905187,0.847104,0.717585,0.514741

@@ -1,0 +1,6 @@
+t_days,t_years,R_single_turbine,R_at_least_1_turbine,R_15of22_turbines,R_substation,R_export_cable,R_farm_total,analytical_note
+365.25,1.0,0.4503662982516767,0.9999980874456014,0.024498026178493726,0.979912823715466,0.7550573755900327,0.018125854510456004,k-of-N assumes identical independent turbines and no repair queues. Full correlated/repair model → Phase 4.
+1095.75,3.0,0.0913477073724938,0.8784513926328918,2.3466339982292084e-11,0.9409408500314695,0.4304669990185997,9.504899835553023e-12,k-of-N assumes identical independent turbines and no repair queues. Full correlated/repair model → Phase 4.
+1825.25,5.0,0.018568546299963705,0.3379063927015201,0.0,0.9035690220602752,0.24560309977908237,0.0,k-of-N assumes identical independent turbines and no repair queues. Full correlated/repair model → Phase 4.
+3650.5,9.99,0.00034479091169389576,0.007558001618576005,0.0,0.8164369776269621,0.06032088262109389,0.0,k-of-N assumes identical independent turbines and no repair queues. Full correlated/repair model → Phase 4.
+7305.0,20.0,1.1784676897468022e-07,2.5926257101183126e-06,0.0,0.6664212283742792,0.0036274303670882414,0.0,k-of-N assumes identical independent turbines and no repair queues. Full correlated/repair model → Phase 4.

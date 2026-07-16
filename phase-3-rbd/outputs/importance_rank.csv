@@ -1,0 +1,14 @@
+IC_rank,IB_rank,component,IC_1825d,IB_1825d,mtbf_days,confidence,is_placeholder
+1,1,Hydraulic System,0.248215,0.049945,1844.7,fitted_tier_b,False
+2,2,Pitch System,0.236463,0.047659,1936.4,fitted_tier_a,False
+3,3,Yaw System,0.106484,0.028387,4300.0,assumed_placeholder,True
+4,4,Mechanical Brake,0.104064,0.028115,4400.0,assumed_placeholder,True
+5,5,Electrical Safety System,0.088054,0.026377,5200.0,assumed_placeholder,True
+6,6,Transformer,0.076314,0.025171,6000.0,assumed_placeholder,True
+7,7,Cooling System,0.041626,0.02192,11000.0,assumed_placeholder,True
+8,8,Grounding/Lightning Protection,0.031362,0.021041,14600.0,assumed_placeholder,True
+9,9,Gearbox,0.016334,0.019818,28033.1,posterior_informed,False
+10,10,Main/Rotor Bearing,0.015631,0.019762,29293.6,posterior_informed,False
+11,11,SCADA/Communication,0.012325,0.019504,37150.3,posterior_informed,False
+12,12,Converter,0.012279,0.0195,37289.6,posterior_informed,False
+13,13,Generator,0.01085,0.019389,42203.0,posterior_informed,False
