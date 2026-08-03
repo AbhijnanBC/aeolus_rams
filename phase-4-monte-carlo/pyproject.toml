@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aeolus-rams-phase4"
+version = "1.0.0"
+description = "AEOLUS-RAMS Phase 4 — Monte Carlo Simulation: farm availability distribution under repair and offshore weather-gated access"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "tabulate>=0.9"]
+
+[project.scripts]
+aeolus-rams-phase4 = "aeolus_rams_phase4.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["aeolus_rams_phase4*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
