@@ -1,0 +1,25 @@
+rank,mcs_id,events,order,Q_mcs,FV,t,has_G1a,has_G1b,has_G1c,has_G2a,has_G2b,has_G3a,has_G3b
+1,MCS-1,G1a: Control/Encoder fault ∩ G2a: Hydraulic supply loss ∩ G3b: Safety relay/electrical fault,3,0.00023983564343487272,0.28553812435130255,365d,True,False,False,True,False,False,True
+2,MCS-2,G1b: Battery/Electrical supply fault ∩ G2a: Hydraulic supply loss ∩ G3b: Safety relay/electrical fault,3,0.00018653883378267884,0.22208520782879093,365d,False,True,False,True,False,False,True
+3,MCS-3,G1c: Actuator mechanical failure ∩ G2a: Hydraulic supply loss ∩ G3b: Safety relay/electrical fault,3,0.00010659361930438788,0.12690583304502337,365d,False,False,True,True,False,False,True
+4,MCS-4,G1a: Control/Encoder fault ∩ G2b: Brake hardware fault ∩ G3b: Safety relay/electrical fault,3,7.090525903386048e-05,0.08441678801870668,365d,True,False,False,False,True,False,True
+5,MCS-5,G1b: Battery/Electrical supply fault ∩ G2b: Brake hardware fault ∩ G3b: Safety relay/electrical fault,3,5.514853480411373e-05,0.06565750179232745,365d,False,True,False,False,True,False,True
+6,MCS-6,G1a: Control/Encoder fault ∩ G2a: Hydraulic supply loss ∩ G3a: Communication/fieldbus loss,3,5.189190480687306e-05,0.06178029652041465,365d,True,False,False,True,False,True,False
+7,MCS-7,G1b: Battery/Electrical supply fault ∩ G2a: Hydraulic supply loss ∩ G3a: Communication/fieldbus loss,3,4.0360370405345725e-05,0.04805134173810029,365d,False,True,False,True,False,True,False
+8,MCS-8,G1c: Actuator mechanical failure ∩ G2b: Brake hardware fault ∩ G3b: Safety relay/electrical fault,3,3.1513448459493554e-05,0.03751857245275853,365d,False,False,True,False,True,False,True
+9,MCS-9,G1c: Actuator mechanical failure ∩ G2a: Hydraulic supply loss ∩ G3a: Communication/fieldbus loss,3,2.3063068803054697e-05,0.027457909564628732,365d,False,False,True,True,False,True,False
+10,MCS-10,G1a: Control/Encoder fault ∩ G2b: Brake hardware fault ∩ G3a: Communication/fieldbus loss,3,1.5341376700293955e-05,0.01826479110957603,365d,True,False,False,False,True,True,False
+11,MCS-11,G1b: Battery/Electrical supply fault ∩ G2b: Brake hardware fault ∩ G3a: Communication/fieldbus loss,3,1.1932181878006413e-05,0.014205948640781363,365d,False,True,False,False,True,True,False
+12,MCS-12,G1c: Actuator mechanical failure ∩ G2b: Brake hardware fault ∩ G3a: Communication/fieldbus loss,3,6.818389644575092e-06,0.00811768493758935,365d,False,False,True,False,True,True,False
+1,MCS-1,G1a: Control/Encoder fault ∩ G2a: Hydraulic supply loss ∩ G3b: Safety relay/electrical fault,3,0.015975554325304564,0.26614530415861565,1825d,True,False,False,True,False,False,True
+2,MCS-2,G1b: Battery/Electrical supply fault ∩ G2a: Hydraulic supply loss ∩ G3b: Safety relay/electrical fault,3,0.012425431141903543,0.20700190323447876,1825d,False,True,False,True,False,False,True
+3,MCS-3,G1c: Actuator mechanical failure ∩ G2a: Hydraulic supply loss ∩ G3b: Safety relay/electrical fault,3,0.007100246366802029,0.11828680184827364,1825d,False,False,True,True,False,False,True
+4,MCS-4,G1a: Control/Encoder fault ∩ G2b: Brake hardware fault ∩ G3b: Safety relay/electrical fault,3,0.005756424548188202,0.09589935541810773,1825d,True,False,False,False,True,False,True
+5,MCS-5,G1b: Battery/Electrical supply fault ∩ G2b: Brake hardware fault ∩ G3b: Safety relay/electrical fault,3,0.004477219093035266,0.0745883875474171,1825d,False,True,False,False,True,False,True
+6,MCS-6,G1a: Control/Encoder fault ∩ G2a: Hydraulic supply loss ∩ G3a: Communication/fieldbus loss,3,0.0038811104706681656,0.06465749517392565,1825d,True,False,False,True,False,True,False
+7,MCS-7,G1b: Battery/Electrical supply fault ∩ G2a: Hydraulic supply loss ∩ G3a: Communication/fieldbus loss,3,0.0030186414771863498,0.05028916291305326,1825d,False,True,False,True,False,True,False
+8,MCS-8,G1c: Actuator mechanical failure ∩ G2b: Brake hardware fault ∩ G3b: Safety relay/electrical fault,3,0.002558410910305868,0.04262193574138123,1825d,False,False,True,False,True,False,True
+9,MCS-9,G1c: Actuator mechanical failure ∩ G2a: Hydraulic supply loss ∩ G3a: Communication/fieldbus loss,3,0.0017249379869636295,0.02873666452174474,1825d,False,False,True,True,False,True,False
+10,MCS-10,G1a: Control/Encoder fault ∩ G2b: Brake hardware fault ∩ G3a: Communication/fieldbus loss,3,0.00139846913181578,0.02329784524935101,1825d,True,False,False,False,True,True,False
+11,MCS-11,G1b: Battery/Electrical supply fault ∩ G2b: Brake hardware fault ∩ G3a: Communication/fieldbus loss,3,0.001087698213634495,0.01812054630505078,1825d,False,True,False,False,True,True,False
+12,MCS-12,G1c: Actuator mechanical failure ∩ G2b: Brake hardware fault ∩ G3a: Communication/fieldbus loss,3,0.0006215418363625689,0.01035459788860045,1825d,False,False,True,False,True,True,False

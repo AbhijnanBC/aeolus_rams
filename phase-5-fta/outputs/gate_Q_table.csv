@@ -1,0 +1,23 @@
+node,node_type,gate_type,Q,confidence,parent_component,fraction_estimate,t
+TE: Turbine Overspeed → Catastrophic Structural Failure,Gate,AND,0.0007690040705441519,computed,—,1.0,365d
+  G1: Pitch System fails to feather,Gate,OR,0.17190299999991898,computed,—,1.0,365d
+    G1a: Control/Encoder fault,BasicEvent,—,0.08201660687363882,fitted_tier_a,Pitch System,0.45,365d
+    G1b: Battery/Electrical supply fault,BasicEvent,—,0.06379069423505243,fitted_tier_a,Pitch System,0.35,365d
+    G1c: Actuator mechanical failure,BasicEvent,—,0.03645182527717281,fitted_tier_a,Pitch System,0.2,365d
+  G2: Mechanical brake fails to engage,Gate,OR,0.13620740491919991,computed,—,1.0,365d
+    G2a: Hydraulic supply loss,BasicEvent,—,0.10777799999999997,fitted_tier_b,Hydraulic System,0.6,365d
+    G2b: Brake hardware fault,BasicEvent,—,0.03186360000000001,assumed_placeholder,Mechanical Brake,0.4,365d
+  G3: SCADA overspeed trip fails to activate,Gate,OR,0.032843124307199933,computed,—,1.0,365d
+    G3a: Communication/fieldbus loss,BasicEvent,—,0.005870400000000009,posterior_informed,SCADA/Communication,0.6,365d
+    G3b: Safety relay/electrical fault,BasicEvent,—,0.02713199999999998,assumed_placeholder,Electrical Safety System,0.4,365d
+TE: Turbine Overspeed → Catastrophic Structural Failure,Gate,AND,0.040504128376344394,computed,—,1.0,1825d
+  G1: Pitch System fails to feather,Gate,OR,0.6103909999993071,computed,—,1.0,1825d
+    G1a: Control/Encoder fault,BasicEvent,—,0.35793773089163056,fitted_tier_a,Pitch System,0.45,1825d
+    G1b: Battery/Electrical supply fault,BasicEvent,—,0.27839601291571253,fitted_tier_a,Pitch System,0.35,1825d
+    G1c: Actuator mechanical failure,BasicEvent,—,0.15908343595183583,fitted_tier_a,Pitch System,0.2,1825d
+  G2: Mechanical brake fails to engage,Gate,OR,0.46155634807840007,computed,—,1.0,1825d
+    G2a: Hydraulic supply loss,BasicEvent,—,0.376932,fitted_tier_b,Hydraulic System,0.6,1825d
+    G2b: Brake hardware fault,BasicEvent,—,0.13581880000000002,assumed_placeholder,Mechanical Brake,0.4,1825d
+  G3: SCADA overspeed trip fails to activate,Gate,OR,0.14376939358912,computed,—,1.0,1825d
+    G3a: Communication/fieldbus loss,BasicEvent,—,0.02876639999999999,posterior_informed,SCADA/Communication,0.6,1825d
+    G3b: Safety relay/electrical fault,BasicEvent,—,0.11840920000000002,assumed_placeholder,Electrical Safety System,0.4,1825d
