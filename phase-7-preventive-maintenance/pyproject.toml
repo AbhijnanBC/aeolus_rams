@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aeolus-rams-phase7"
+version = "1.0.0"
+description = "AEOLUS-RAMS Phase 7 — RCM: Barlow-Proschan age-replacement, IEC 61511 failure-finding intervals, CBM trigger framework for all 13 components"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "tabulate>=0.9"]
+
+[project.scripts]
+aeolus-rams-phase7 = "aeolus_rams_phase7.pipeline:main"
+
+[tool.setuptools.packages.find]
+include = ["aeolus_rams_phase7*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
