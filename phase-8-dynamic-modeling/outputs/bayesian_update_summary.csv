@@ -1,0 +1,5 @@
+update_stage,stage_label,n_failures,n_censored,beta_map,eta_map_days,beta_ci90_lo,beta_ci90_hi,eta_ci90_lo_days,eta_ci90_hi_days,T_star_updated_days,T_star_updated_years,savings_updated_fraction
+0,Stage 0: prior only,0,0,1.988,24899.5,1.2262,3.2622,18042.0,34641.4,8376.8,22.93,0.4596
+1,Stage 1: + batch 1 (5 failures),5,0,2.3543,20856.5,1.4876,3.4237,16512.4,27871.4,7248.8,19.85,0.5512
+2,Stage 2: + batch 2 (10 failures),10,0,2.3543,19088.3,1.5802,3.1843,15860.7,24501.7,6635.0,18.17,0.5512
+3,Stage 3: + batch 3 + censored,15,8,2.5009,18334.9,1.7617,3.2622,15860.7,22424.4,6500.6,17.8,0.5787

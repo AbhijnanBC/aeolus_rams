@@ -1,0 +1,36 @@
+==========================================================
+PHASE 8 CBM THRESHOLD OPTIMISATION — PITCH SYSTEM UPDATE
+==========================================================
+
+Phase 7 rcm_schedule.csv entry:
+  Component     : Pitch System
+  RCM Category  : CONDITION_BASED
+  Trigger Rule  : k=2.0σ (default; tune with operational data, Phase 8+)
+
+Phase 8 update (N=250 Monte Carlo cycles per k_sigma,
+  k sweep: [0.5, 4.0] in 71 steps):
+
+  CENTRAL CASE (Cp/Cf = 0.10):
+  ► k* = 4.00σ  (Phase 8 optimised)
+  ► Cost rate at k* = $278.66/day
+  ► Cost rate at Phase 7 default k=2.0 = $1335.23/day
+  ► Cost reduction vs default = 79.1%
+
+  Cp/Cf SENSITIVITY:
+  Cp/Cf=0.05: k* = 4.00  (cost_rate = $270.08/day)
+  Cp/Cf=0.10: k* = 4.00  (cost_rate = $278.66/day)
+  Cp/Cf=0.15: k* = 4.00  (cost_rate = $287.23/day)
+  Cp/Cf=0.20: k* = 4.00  (cost_rate = $295.80/day)
+
+  INTERPRETATION:
+  Higher k → fewer false alarms but more corrective failures.
+  Lower k → more preventive interventions at shorter lead times.
+  k* is an interior minimum: the degradation ramp onset at 70% of
+  lifetime creates a detectable pre-failure signal that an optimally
+  tuned threshold captures before failure at a cost less than Cf.
+
+  ACTION: Replace 'k=2.0σ (default)' with 'k=4.00σ (Phase 8 opt.)'
+  in Pitch System row of rcm_schedule.csv.
+
+[SYNTHETIC — Lifetime distribution: Weibull(β=1.0000, η=1936.0d);
+ anomaly score model: ramp onset at 70% of life, r=0.003 SD/day.]

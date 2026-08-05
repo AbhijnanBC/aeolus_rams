@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aeolus-rams-phase8"
+version = "1.0.0"
+description = "AEOLUS-RAMS Phase 8 — Dynamic Reliability & Predictive Modeling"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+    "lifelines>=0.27",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "tabulate>=0.9",
+]
+
+[project.scripts]
+aeolus-rams-phase8 = "aeolus_rams_phase8.pipeline:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aeolus_rams_phase8*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
