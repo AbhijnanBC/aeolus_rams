@@ -80,7 +80,7 @@ This pipeline is built to process the **CARE-to-Compare wind turbine SCADA bench
 **1. Clone the repository and setup the environment:**
 
 ```bash
-git clone https://github.com/yourusername/aeolus-rams.git
+git clone https://github.com/AbhijnanBC/aeolus-rams.git
 cd aeolus-rams
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
