@@ -1,4 +1,4 @@
-Here is a comprehensive, portfolio-ready `README.md` for the AEOLUS-RAMS repository. It synthesizes the entire 8-phase architecture, highlights the advanced mathematical and data science techniques you implemented, and is perfectly structured for CS admissions committees or engineering recruiters.
+
 
 ---
 
