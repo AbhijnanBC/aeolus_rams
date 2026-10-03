@@ -1,0 +1,7 @@
+SHA-256 checksums of the CARE-to-Compare event tables and README used in the AEOLUS-RAMS case study
+(files as downloaded July 2026; 95 event windows: 44 anomaly, 51 normal).
+
+ad52ede811af76f2e6100c6828a003efe0f5bea2c136eae0afee5c7c7f9dcb2e  Wind Farm A/Wind Farm A/event_info.csv
+0547e00299efdb35564efbaee51060454c49b88f162f62c919e3a53ba58a4bb9  Wind Farm B/Wind Farm B/event_info.csv
+84925b028b343982944500a63d077587edb333c462821b00aefe3cb80b8a19e9  Wind Farm C/Wind Farm C/event_info.csv
+b815951000b945f7f9d9d1d779a81cef090e714ad70bd28328538cefaff709bd  README.md
